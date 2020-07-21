@@ -70,22 +70,4 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Timer will set for 5s as soon as you pick choice", Toast.LENGTH_LONG).show();
         }
     }
-
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//        if (requestCode == SET_TIMER && resultCode == RESULT_OK){
-//            if (data != null){
-//                int time = data.getExtras().getInt(AlarmClock.EXTRA_LENGTH);
-//                SPLASH_TIME_OUT = time;
-//                new Handler().postDelayed(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        Toast.makeText(MainActivity.this, "Timer Ends", Toast.LENGTH_SHORT).show();
-//                    }
-//                },SPLASH_TIME_OUT);
-//
-//            }
-//        }
-//    }
 }
